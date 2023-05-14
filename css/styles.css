@@ -1,4 +1,8 @@
-body {
+* {
+    margin : 0;
+    padding : 0;
+}
+/* body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #CBF1F5;
 }
@@ -21,4 +25,4 @@ h1 {
 
 h2 {
     color: #112D4E;
-}
+} */
