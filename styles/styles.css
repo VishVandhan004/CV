@@ -7,7 +7,7 @@
   
   :root {
     --color-primary: #191d2b;
-    --color-secondary: #27AE60;
+    --color-secondary: #7FFFD4;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -37,7 +37,7 @@
   
   body {
     background-color: var(--color-primary);
-    font-family: "Poppins", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all 0.4s ease-in-out;
