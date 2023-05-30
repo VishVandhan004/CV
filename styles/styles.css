@@ -259,6 +259,7 @@
   .about-container .left-about {
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding-left: 22rem;
   }
   .about-container .left-about p {
