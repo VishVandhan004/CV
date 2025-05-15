@@ -872,11 +872,15 @@
 
 .skill-group h5 {
     font-size: 1.2rem;
-    color: var(--color-secondary);
+    color: var(--color-white); /* ✅ White for dark mode */
     margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.light-mode .skill-group h5 {
+    color: var(--color-grey); /* ✅ Black for light mode */
 }
 
 .skill-badges {
