@@ -863,6 +863,52 @@
       font-size: 4rem;
     }
   }
-  
+  .skills-section {
+    padding: 0 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skill-group h5 {
+    font-size: 1.2rem;
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skill-badge {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.skill-badge:hover {
+    background-color: var(--color-white-3);
+    color: var(--color-black);
+}
+
+@media screen and (max-width: 600px) {
+    .skill-badge {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.7rem;
+    }
+    .skill-group h5 {
+        font-size: 1rem;
+    }
+}
+
   /*# sourceMappingURL=styles.css.map */
   
